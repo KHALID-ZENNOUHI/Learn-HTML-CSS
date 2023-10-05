@@ -83,6 +83,7 @@ section {
 .container p{
     color: #fdfdfd;
     text-decoration: solid;
+    line-height: 2;
 }
 
 h2 {
@@ -103,6 +104,11 @@ h2 {
 .container a{
     align-items: center;
 }
+.Bienvenue{
+    padding: 0px 200px;
+    margin: 0px 200px;
+    text-align: center;
+}
 
 /* Styles de bouton */
 .btn {
@@ -115,8 +121,8 @@ h2 {
     font-weight: bold;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-
 
 /* Styles des services */
 .services-grid {
@@ -181,7 +187,7 @@ form button {
     max-width: 450px; 
     color: #fff;
 }
-.blog-grid h3{ 
+.blog-grid a{ 
     color: #e2e2e2;
     text-decoration: none;
 }
@@ -198,8 +204,9 @@ img{
 .blog-text{
     text-align:justify;
     color: #fff;
-    padding: 50px;
+    padding: 0px 50px 50px;
     margin: 10px 50px 50px;
+    line-height: 2;
 }
 .img1{
     width: 700px;
@@ -210,10 +217,6 @@ img{
 #contact .container{
     width: 500px;
 }
-.blog-grid img :hover{
-    transform: scale(1 : 1);
-}
-
 
 /* Styles de pied de page */
 footer {

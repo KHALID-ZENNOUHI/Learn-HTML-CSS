@@ -145,6 +145,9 @@ h2 {
 .service img:hover {
     transform: scale(1.1);
 }
+.services-grid h3{
+    color:#fff;
+}
 
 /* Styles du formulaire de contact */
 for label{

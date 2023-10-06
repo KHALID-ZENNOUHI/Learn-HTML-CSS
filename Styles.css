@@ -122,6 +122,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+.btn :hover{
+    transform: scale(1.2);
 }
 
 /* Styles des services */
